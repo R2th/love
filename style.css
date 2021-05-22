@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 * {
+  color: white;
   box-sizing: border-box;
 }
 
 body {
-  background-image: url("./picture 1.jpg");
+  background-image: url("./picture 2.jpg");
+  /* background-image: none; */
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -20,6 +22,9 @@ h1 {
   font-weight: normal;
   font-size: 4rem;
   margin-top: 5rem;
+}
+
+p {
 }
 
 .countdown-container {
